@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.calculadora {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+input {
+    text-align: center;
+}
+
+div#res {
+    text-align: center;
+    margin-top: 20px;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgb(156, 205, 252);
+}
+
+.btn {
+    padding: 1px 5px;
+    border-radius: 5px;
+    background-color: rgb(156, 205, 252);
+    color: rgb(0, 0, 3);
+}
