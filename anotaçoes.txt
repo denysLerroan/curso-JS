@@ -1,0 +1,28 @@
+Converções 
+
+String para número:
+Number.parseInt(n) // Inteiro
+Number.parseFloat(n) // Real
+Number(n) // O JS se vira
+
+Número para String:
+String(n)
+(n).toString
+
+Formatação de String:
+Ao invés de concatenação utilizamos o Placeholder - ${n} (TemplateString)
+
+//Concatenação
+'O aluno' + nome 'de' + idade 'anos tirou nota ' + nota
+'O aluno Gustavo de 41 anos tirou nota 5.5'
+
+//TemplateString (Utiliza-se crase ao invés da aspas simples)
+`O aluno ${nome} de ${idade} anos tirou nota ${nota}`
+
+Formatação de Números:
+n.toFixed(numero de casas)
+n.toFixed(numero de casas).replace('.', ',') //Substitui ponto por virgula
+
+//Comando para moedas
+n1.toLocaleString('pt-BR', {style:'currency',currency: 'BRL'})
+
