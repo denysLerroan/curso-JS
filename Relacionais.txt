@@ -1,0 +1,14 @@
+Relacionais:
+
+5 > 2 -> true // Maior
+7 < 4 -> false // Menor
+8 >= 8 -> true // Maior ou igual
+9 <= 7 -> false // Menor ou igual
+5 == 5 -> true // Igual
+4 != 4 -> false // Diferente
+
+Identidade:
+5 == 5 -> true
+5 == '5' -> true // Não testa tipo e sim grandeza
+5 === '5' -> false // Testa identidade
+5 === 5 -> true

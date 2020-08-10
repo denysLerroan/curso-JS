@@ -1,0 +1,7 @@
+Ternario:
+?
+:
+
+teste ? true : false
+
+media >= 7.0 ? "Aprovado" : "Reprovado"
