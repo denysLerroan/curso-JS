@@ -1,4 +1,4 @@
-Selecionando elementos em JS utilizando o DOM
+Selecionando elementos em JS utilizando o DOM (Document Object Model)
 
 Selecionando por Marca: getElementsByTagName()
 

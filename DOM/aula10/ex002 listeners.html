@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/DOM/aula10/css/styles.css">
+
+    <title>Eventos DOM</title>
+</head>
+
+<body>
+    <div id="area">
+        Interaja...
+    </div>
+
+    <script>
+        var a = window.document.getElementById('area')
+
+        // Listeners
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        function clicar() {
+            a.innerText = 'Clicou!'
+            a.style.background = "Red"
+        }
+
+        function entrar() {
+            a.innerText = 'Entrou!'
+            a.style.background = 'rgba(0, 156, 0, 0.905)'
+        }
+
+        function sair() {
+            a.innerText = 'Saiu!'
+            a.style.background = 'rgba(0, 156, 0, 0.705)'
+        }
+    </script>
+</body>
+
+</html>
