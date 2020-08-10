@@ -1,0 +1,17 @@
+Selecionando elementos em JS utilizando o DOM
+
+Selecionando por Marca: getElementsByTagName()
+
+Selecionando por ID: getElementsByID()
+
+Selecionando por Nome: getElementsByName()
+
+Selecionando por Classe: getElementsByClassName()
+
+Selecionando por Marca: getElementsByTagName()
+
+Selecionando por Seletor: quertSelector() ou querySelectorAll() //Mais recomendada por ES6
+
+
+ID = #
+Classe = .

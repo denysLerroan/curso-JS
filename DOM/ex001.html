@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/DOM/css/styles.css">
+    <title>Primeiros passos com DOM</title>
+</head>
+
+<body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em Javascript</p>
+    <div id="msg">Clique em mim</div>
+    <div name="msg2">Clique em mim 2</div>
+    <p class="seletorexemplo">Esse aqui foi selecionado por querySelector()</p>
+
+    <script>
+        // Seleçao por Marca ---- [0] seleciona a primeira ocorrencia da Tag 'p'
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write(`Está escrito assim: ${p1.innerText}<br>`)
+        p1.style.color = 'yellowgreen' // Altera a cor do elemento selecionado
+
+        // Seleçao por Marca ---- [1] seleciona a primeira ocorrencia da Tag 'p'
+        var p2 = window.document.getElementsByTagName('p')[1]
+        window.document.write(`Está escrito assim: ${p2.innerHTML}<br>`)
+        p2.style.color = 'blue' // Altera a cor do elemento selecionado
+
+        //Seleção por ID
+        var d = window.document.getElementById('msg')
+        d.style.color = "red"
+        d.innerText = "Clique"
+
+        //Seleção por nome
+        var e = window.document.getElementsByName('msg2')[0]
+        e.style.color = "yellow"
+            //e.innerText = "Clique"
+
+
+        //Seleção por Seletor
+        var f = window.document.querySelector('p.seletorexemplo')
+        f.style.color = 'purple'
+    </script>
+</body>
+
+</html>
