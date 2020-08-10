@@ -1,0 +1,23 @@
+Operadores:
+
+5  +  2 = 7 
+5  -  2 = 3
+5  *  2 = 10
+5  /  2 = 2.5
+5  %  2 = 1
+5  ** 2 = 25
+
+Precedência:
+()
+**
+* / %
++ - 
+
+Auto=atribuição:
+var n = 3
+n +=4 // n passou a valer 7
+
+incremento:
+var x = 5
+x = x + 1 passa a ser x ++
+x = x 1 1 passa a ser x --
